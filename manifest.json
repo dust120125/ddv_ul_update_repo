@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "description": "2.7.15 -> 2.7.22 更新 + 舊漢化檔清理",
+    "resources": [
+        {
+            "url": "https://ul.subquake.com/dl?v=2.7.15-2.7.22",
+            "type": "zip",
+            "extract": true,
+            "zipContentPath": "",
+            "path": ""
+        },
+        {
+            "url": "https://github.com/dust120125/ddv_ul_update_repo/releases/download/202608310950/ul_2.7.18_tchinese.zip",
+            "type": "zip",
+            "extract": true,
+            "zipContentPath": "",
+            "path": ""
+        }
+    ],
+    "remove": [
+        {
+            "path": "Mods/YYYYY_Furry_UndeadLegacy_schinese_V8",
+            "type": "dir"
+        },
+        {
+            "path": "Mods/ZZZZZ_UndeadLegacy_schinese_V2",
+            "type": "dir"
+        }
+    ]
+}
