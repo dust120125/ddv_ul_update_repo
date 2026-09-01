@@ -1,30 +1,13 @@
 {
-    "version": 1,
-    "description": "2.7.15 -> 2.7.22 更新 + 舊漢化檔清理",
+    "version": 2,
+    "description": "2.7.24 更新 (須完整下載 Part1)",
     "resources": [
         {
-            "url": "https://ul.subquake.com/dl?v=2.7.15-2.7.22",
+            "url": "https://ul.subquake.com/dl?v=exp_part1",
             "type": "zip",
             "extract": true,
-            "zipContentPath": "",
+            "zipContentPath": "UndeadLegacyExperimentalPart1-main/*",
             "path": ""
-        },
-        {
-            "url": "https://github.com/dust120125/ddv_ul_update_repo/releases/download/202608310950/ul_2.7.18_tchinese.zip",
-            "type": "zip",
-            "extract": true,
-            "zipContentPath": "",
-            "path": ""
-        }
-    ],
-    "remove": [
-        {
-            "path": "Mods/YYYYY_Furry_UndeadLegacy_schinese_V8",
-            "type": "dir"
-        },
-        {
-            "path": "Mods/ZZZZZ_UndeadLegacy_schinese_V2",
-            "type": "dir"
         }
     ]
 }
