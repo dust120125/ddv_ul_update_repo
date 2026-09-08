@@ -1,13 +1,27 @@
 {
     "version": -1,
-    "description": "UL v2.7.18 漢化補丁",
+    "description": "UL v2.7.25 漢化補丁",
     "resources": [
         {
-            "url": "https://github.com/dust120125/ddv_ul_update_repo/releases/download/202608310950/ul_2.7.18_tchinese.zip",
+            "url": "https://github.com/dust120125/ddv_ul_update_repo/releases/download/tchinese_2.7.25.1/ul_2.7.25_tchinese.zip",
             "type": "zip",
             "extract": true,
             "zipContentPath": "",
             "path": ""
+        }
+    ],
+	"remove": [
+        {
+            "path": "Mods/YYYYY_Furry_UndeadLegacy_schinese_V8",
+            "type": "dir"
+        },
+		{
+            "path": "Mods/YYYYY_Furry_UndeadLegacy_chinese_V8",
+            "type": "dir"
+        },
+        {
+            "path": "Mods/ZZZZZ_UndeadLegacy_schinese_V2",
+            "type": "dir"
         }
     ]
 }
